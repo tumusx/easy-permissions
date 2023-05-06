@@ -24,7 +24,7 @@ class EasyPreferences(private val context: Context) {
     }
 
     suspend fun readValuePreferences(key: String, type: Any): Flow<Any?> {
-        return withContext(Dispatchers.Main) {
+        return withContext(Dispatchers.IO) {
             context.dataStoreConfigure.data.map { preferences ->
                 preferences[getPreferencesKey(type, key)]
             }
