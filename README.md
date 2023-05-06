@@ -8,7 +8,7 @@ Além disso, esta biblioteca também oferece uma solução de armazenamento de d
 Para utilizar esta biblioteca no seu projeto, basta adicionar as seguintes linhas no seu arquivo build.gradle do app:
 
 ````
-implementation 'com.github.tumusx.easy_permissions:easy-permissions:1.0'
+implementation 'com.github.tumusx:easy-permissions:1.0.2
 ````
 E adicione também no repositorio do settings.gradle a linha 
 ````
