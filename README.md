@@ -16,7 +16,7 @@ maven { url 'https://jitpack.io' }
 ````
 
 <h1>Como usar</h1>
-<h2>Solitando permissões</h2>
+<h2>Solicitando permissões</h2>
 Para solicitar permissões, basta usar o método requestPermissions:
 
 ````
